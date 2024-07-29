@@ -6,6 +6,6 @@ tools and programming language that i'm using is
 - Java programming language
 - Maven build tool
 - TestNG as test runner
-- Selenium for web automation
+- Selenium grid for web automation
 - Extent report
 - docker as a container tool
