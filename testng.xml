@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="3">
+
+    <test name = "test 1">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="page_tests.LoginPageTests"/>
+        </classes>
+    </test>
+
+    <test name="test 2 ">
+        <parameter name="browserName" value="edge"></parameter>
+        <classes>
+            <class name="page_tests.ProductsPageTests">
+            </class>
+        </classes>
+    </test>
+</suite>
+
